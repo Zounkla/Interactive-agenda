@@ -1,0 +1,44 @@
+nav {
+  position : absolute;
+  top : 0px;
+  border : red 2px solid;
+  background-color : red;
+  width : 20%;
+  height : 100%;
+  color : white;
+  font-weight : bold;
+  text-align : center;
+}
+
+h1 {
+	position : absolute;
+	top : 40%;
+	font-size : 200%;
+}
+
+html {
+	margin:0;
+	padding:0;
+	background: url(../images/pont.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	
+}
+form {
+	position : absolute;
+	font-family : cursive;
+	font-size: 150%;
+	text-decoration: underline;
+	top: 13%;
+	left: 35%;
+	border-collapse: collapse;
+	text-align : center;
+	background-color : lightyellow;
+	width : 50%;
+}
+
+.error{
+  text-align: center;
+  font-weight: bold;
+
+}

@@ -1,0 +1,96 @@
+table {
+  border-collapse: collapse;
+  text-align : center;
+  background-color : white;
+  width : 200%;
+  height : 120%;
+}
+
+nav {
+  position : absolute;
+  top : 0px;
+  border : red 2px solid;
+  background-color : red;
+  width : 20%;
+  height : 100%;
+  color : white;
+  font-weight : bold;
+  text-align : center;
+}
+
+.calendrier {
+	
+	position : absolute;
+	top : 10%;
+	left : 25%;
+}
+
+
+
+html {
+	font-family : curved;
+	margin:0;
+	padding:0;
+	background: url(../images/ciel_oiseaux.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+}
+	
+#prev {
+	text-align : center;
+	left : 20%;
+	position : relative;
+}
+
+#next {
+	text-align : center;
+	left : 50%;
+	position : relative;
+
+}
+
+#month-select {
+	position : relative;
+	left : 30%;
+}
+
+#annee {
+	position: relative;
+	left : 40%;
+}
+
+#confirm {
+	position : relative;
+	left : 45%;
+}
+#now {
+	position : relative;
+	left : 65%;
+}
+
+#liste_prochains_events {
+	position : absolute;
+	top : 55%;
+	background-color : grey;
+	left : 21%;
+	width : 29%;
+}
+
+#cadre_event {
+	position : absolute;
+	background-color : grey;
+	left : 95%;
+	width : 100%;
+  top: 99;
+}
+
+.close_event {
+	position : absolute;
+	top : -01%;
+	left : 80%;
+}
+
+#ajout_event_jour {
+	position : relative;
+	left : 30%;
+}
